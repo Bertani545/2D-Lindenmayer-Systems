@@ -43,10 +43,10 @@ void jump(Turtle T){
 }
 
 void rotateLeft(Turtle T){
-  T.facing_angle =  (T.facing_angle - ANGLE)%(2*PI);
+  T.facing_angle =  (T.facing_angle + ANGLE)%(2*PI);
 }
 void rotateRight(Turtle T){
-  T.facing_angle =  (T.facing_angle + ANGLE)%(2*PI);
+  T.facing_angle =  (T.facing_angle - ANGLE)%(2*PI);
 }
 
 
